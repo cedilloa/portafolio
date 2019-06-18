@@ -1,0 +1,116 @@
+body {
+    /* 1 agregamos para chequear que el index esté leyendo el archivo css */
+    /* comentar control + k + c, decomentar: control + k + u */
+       /*background: blue;*/
+    /* 1.2 agregamos el tipo de letra */
+      font-family: 'Handlee', cursive;
+    /* 13 agregamos para ver que el tamaño de los inputs debe indicarse aparte */
+    /* font-size: 20px; */
+    /* color final  */
+    background: #171717;
+
+}
+.postcard {
+    /*background: yellow;*/
+    /* 2 y 3 indicamos el tamaño del div para poder verlo */
+    /*width: 600px;
+    height: 400px;*/
+    /* 4 usamos margin: auto para centrar el div horizontalmente */
+    margin: auto;
+    /* 5 usamos position absolute y transform para centrar el div verticalmente */
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+    /* 6 agregamos un padding de 15 pixeles al postcard para separar el texto de los bordes */
+    padding: 15px;
+    /* color final */
+     background: white;
+    /* al final cambiar el tamaño del postcard */
+    width: 500px;
+    height: 350px;
+}
+.postcard h1{
+    /* 7 usamos margin 0 para remover el margin que tiene la etiqueta h1 por defecto */
+    margin: 0;
+}
+.left-part{
+    /* 8 usamos float left para mover el contenido hacia la izquierda */
+    float: left;
+    /* 9 le damos un width de 50% para que ocupe la mitad del postcard, su elemento padre */
+    width: 50%;
+    /* solo con fines de visualización agregamos un fondo rojo */
+   /*background: red;*/
+    /* al final quitar el rojo */
+}
+.right-part{
+    /* 10 usamos float right para mover el contenido hacia la derecha */
+    float: right;
+    width: 50%;
+}
+.right-part input{
+    /* 11 usamos display block para asegurarnos de que los inputs estén centrados. */
+    display: block;
+    margin: 10px;
+}
+input {
+    /* 12 agregamos para ver que el tamaño de los inputs debe indicarse aparte (agregar primero el
+    font size al body) */
+    font-size: 18px;
+    /* 14 agregar el tipo de letra a todos los inputs, porque no lo toman del body */
+    font-family: 'Handlee', cursive;
+}
+.postcard-header img {
+    /* 15 y 16 (agregar la imagen)
+     aplicamos la propiedad max-width a la imagen para que no supere un tamaño específicifo */
+    max-width: 60px;
+    /* 17 movemos la imagen a la derecha */
+    float: right;
+}
+.postcard-header {
+    /* 18 le damos un fondo verde al header para ver que la imagen no se mantiene dentro de su contenedor debido al float */
+    /*background: green;*/
+    /* al final quitar el verde */
+    /* 19 usamos overflow: hidden para que el header incluya a los elemtos float */
+    overflow: hidden;
+    /* ejemplo para ver como funciona overflow: scroll */
+    /* overflow: scroll;
+    height: 60px; */
+}
+.postcard-footer {
+    /* 20 le damos un fondo rosado al footer para ver donde está ubicado */
+    /*background: pink;*/
+    /* esto se pone después de terminar el postcard-footer input */
+    /* 23 se pone para dar padding al botón y para centrarlo */
+    padding: 10px;
+    text-align: center;
+}
+.postcard-body{
+    /* 21 agregamos overflow al postcard-body para que ocupe todo el espacio de sus elementos float y
+    mande al footer para abajo */
+    overflow: hidden;
+}
+.postcard-footer input{
+    /* 22 removemos los border del input y dejamos solo el de abajo
+    aquí se puede mostrar el uso de color picker con google chrome */
+    border: none;
+    border-bottom: 1px solid grey;
+    /* al terminar esto volver al postcard footer a darle padding al botón y centrarlo */
+}
+/* 24 al llegar aquí cambiar los colores */
+h1{
+    /* 25 cambiar el tamaño del h1 */
+    font-size: 35px;
+}
+/* 26 En este momento cambiar el tamaño del postcard */
+.postcard-body input{
+    /* 27 elminar los bordes de los inputs y dejar solo el borde de abajo */
+    border: none;
+    border-bottom: 1px solid grey;
+    /* 28 aumentar el width de los inputs */
+    width: 240px;
+    /* 29 hacer los inputs más parecidos a los de la imagen */
+     margin-bottom: 10px;
+    padding: 5px;
+}
+/* En este punto cambiar el div del postcard por un form y agregarle una acción y un método */
+/* el método get se muestra en la url y el método post no se muestra, es más seguro */
+/* la acción será el destino de los datos introducidos */
+/* en este punto ir a formspree y traer el action */

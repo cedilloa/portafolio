@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/style4geeks.css" />
+    <link
+            href="https://fonts.googleapis.com/css?family=Handlee&display=swap"
+            rel="stylesheet"
+    />
+    <link
+            rel="shortcut icon"
+            type="image/jpg"
+            href="http://assets.breatheco.de/apis/img/icon/4geeks.png"
+    />
+    <title>Postcard</title>
+</head>
+<body>
+<!-- <div class="postcard">-->
+    <form    class="postcard"
+    action="https://formspree.io/cedilloalfonso@gmail.com"
+    method="POST">
+
+    <div class="postcard-header">
+        <!-- agregamos el logo -->
+        <img
+          src="http://assets.breatheco.de/apis/img/icon/4geeks.png"
+          alt="logo4geeks"
+        />
+        <h1>My Postcard</h1>
+    </div>
+    <div class="postcard-body">
+        <div class="left-part">
+            <p>
+                Look how awesome! This is a postcard that I created using HTML5 and
+                CSS3 during my 4Geeks Academy Course!
+            </p>
+            <p>This is so cool, can't wait to start doing more stuff!</p>
+        </div>
+        <div class="right-part">
+            <!-- el valor del placeholder es el texto que se muestra en el input hasta que el usuario
+              comienza a escribir sobre él -->
+            <input type="text" name="fullname" placeholder="Some Name" />
+            <input type="email" name="email" placeholder="Some Email" />
+            <input type="text" name="message" placeholder="Some Content" />
+        </div>
+    </div>
+    <div class="postcard-footer">
+        <!-- agregamos el submit input -->
+        <input type="submit" value="Send My Postcard" />
+    </div>
+<!--</div>-->
+</form>
+<script src="js/script.js"></script>
+</body>
+</html>
