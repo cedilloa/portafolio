@@ -1,16 +1,70 @@
 body{
     background-color: black;
 }
-#page-header{
-    width: 75%;
-    height: 15%;
-    position: absolute;  left: 50%; transform: translate(-50%);
-    padding-top: 0px;
-    background-color: white;
+#main{
+
+    align-items: center;
+
 }
+#page-header{
+    background-color: white;
+    height: 60px;
+    width: 80%;
+    font-family: Garuda;
+    font-size: 24px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin:0px auto;
+}
+
 #basicDiv{
-    width: 75%;
-    height: 100%;
-    position: absolute;  top: 20%; left: 50%; transform: translate(-50%);
-    background-color: darkgray;
+    background-color: #eaeaea   ;
+    font-family: Garuda;
+    font-size: 10px;
+    width: 80%;
+    text-align:center;
+    margin:0px auto;
+}
+#photo1, #photo2, #photo3,#photo4{
+
+    background-color: white;
+    font-family: Garuda;
+    font-size: 10px;
+    width: 40%;
+    border-radius: 3px;
+    margin:0px auto;
+
+
+}
+
+#header_photo1, #header_photo2, #header_photo3, #header_photo4{
+    height: 30px;
+
+}
+#footer_photo1, #footer_photo2, #footer_photo3, #footer_photo4{
+    height: 40px;
+    text-align: left;
+    padding: 2% 2%;
+
+
+
+}
+#name_header1,#name_header2,#name_header3,#name_header4 {
+
+    float: left;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 2% 2%;
+
+}
+#num_photo_header1,#num_photo_header2,#num_photo_header3,#num_photo_header4 {
+    width: 5%;
+    float: right;
+    padding: 2% 2% ;
+
+}
+img{
+    width: 100%;
+    text-align: left;
 }
