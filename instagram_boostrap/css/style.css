@@ -1,0 +1,7 @@
+@font-face {
+    font-family: "Billabong";
+    src: url("Billabong.ttf");
+}
+#logo-font-instagram{
+    font-family: Billabong;
+}

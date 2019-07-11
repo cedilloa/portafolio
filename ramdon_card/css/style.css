@@ -19,6 +19,7 @@ body{
     position: absolute;
     margin-bottom: -280px;
     margin-left: 240px;
+    transform: rotate(180deg);
 
 }
 #pinta_after{
